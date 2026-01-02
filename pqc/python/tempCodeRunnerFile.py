@@ -1,0 +1,1 @@
+noise = shake128(seed + b"s", N * ETA)
