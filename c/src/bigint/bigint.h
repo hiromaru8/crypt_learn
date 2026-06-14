@@ -17,7 +17,7 @@
 * project-specific requirements, portability, optimization, or maintenance.
   */
 
-  
+
 #include <stdint.h>
 
 /* defining data types to store word and bit counts: */
@@ -27,3 +27,5 @@ typedef int16_t bitcount_t;
 /* defining data type to store ECC coordinate/point in 32bits words: */
 typedef unsigned int uECC_word_t;
 
+/* defining data type to store an ECC coordinate/point in 64bits words: */
+typedef uint64_t uECC_dword_t;
