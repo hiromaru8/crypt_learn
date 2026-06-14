@@ -29,3 +29,9 @@ typedef unsigned int uECC_word_t;
 
 /* defining data type to store an ECC coordinate/point in 64bits words: */
 typedef uint64_t uECC_dword_t;
+/* defining masks useful for ecc computations: */
+#define HIGH_BIT_SET 0x80000000
+#define uECC_WORD_BITS 32
+#define uECC_WORD_BITS_SHIFT 5
+#define uECC_WORD_BITS_MASK 0x01F
+
