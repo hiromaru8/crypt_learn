@@ -118,7 +118,7 @@ static void uECC_vli_mult(uECC_word_t *result,
      *    + ...
      *    + left[k] * right[0]
      *
-     * これは乗算行列の左下三角部分に対応する。
+     * これは乗算行列の左側三角部分に対応する。
      */
     for (k = 0; k < num_words; ++k) {
 
@@ -145,7 +145,7 @@ static void uECC_vli_mult(uECC_word_t *result,
      *    + ...
      *    + left[num_words-1] * right[k-(num_words-1)]
      *
-     * これは乗算行列の右上三角部分に対応する。
+     * これは乗算行列の右側三角部分に対応する。
      */
     for (k = num_words; k < num_words * 2 - 1; ++k) {
 
