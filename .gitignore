@@ -53,3 +53,14 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Python
+*.pyc
+**/__pycache__/
+
+# office
+~*.xlsx
+
+
+# temp
+*.tmp
